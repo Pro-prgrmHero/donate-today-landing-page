@@ -1,19 +1,49 @@
- body{
+body{
     font-family: 'Finlandica', sans-serif;
-    margin: 0
- }
- .first-title{
-   font-size: 85px;
+    margin: 0;
+}
+.first-title{
+   font-size: 70px;
    font-weight: 1000;
-   padding-top: 100px;
- }
- .first-banner{
+   padding-top: 20px;
+   margin: 50px;
+}
+.first-banner{
+   display: flex;
+   flex-direction: column;
+   align-items: center;
    height: 100vh;
    width: 100%;
-   /* color: white; */
    color: blanchedalmond;
    text-align: center;
-   background-image: url(/images/checkdonation13.png);
+   background-image: url("./images/checkdonation13.png");
    background-repeat: no-repeat;
    background-size: cover;
- }
+}
+.paragraph-text{
+   font-size: 25px;
+   margin: 50px;
+}
+.banner-button{
+   color: rgba(255, 255, 255, 0.925);
+   font-size: 20px;
+   background-color: rgba(218, 96, 75, 0.979);
+   text-decoration: none;
+   padding: 10px 20px;
+   margin: 20px;
+   border-radius: 7px;
+}
+.foot{
+   display: flex;
+   flex-direction: column;
+   justify-content: center;
+   text-align: center;
+   color: aliceblue;
+   background-image: url("./images/black-clear.png");
+}
+.footer-heading{
+   color: rgba(219, 78, 53, 0.979);
+   font-size: 40px;
+   font-weight: 1000;
+   font-family: 'Dancing Script', 'cursive';
+}
