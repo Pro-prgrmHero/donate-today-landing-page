@@ -24,6 +24,49 @@ body{
    font-size: 25px;
    margin: 50px;
 }
+.second-title{
+   font-size: 50px;
+   font-weight: 700;
+   /* text-align: center; */
+   margin-bottom: 20px;
+}
+.second-banner{
+   text-align: center;
+   margin-top: 70px;
+}
+.donate-amount{
+   display: flex;
+   flex-direction: row;
+   justify-content: space-evenly;
+}
+.card-grey{
+   color: rgba(100, 92, 92, 0.986);
+   background-color: rgb(248, 248, 248);
+   font-size: 40px;
+   padding-top: 30px;
+   width: 150px;
+   height: 90px;
+   border: 10px solid rgb(248, 248, 248);
+   border-radius: 7px;
+   /* margin: 500px solid rgb(102, 96, 96); */
+   /*margin-left: 150px;*/
+}
+.card2{
+   color: rgba(226, 22, 22, 0.986);
+   background-color: rgba(255, 164, 148, 0.986);
+   font-size: 40px;
+   padding-top: 30px;
+   width: 150px;
+   height: 90px;
+   border: 10px solid rgb(255, 99, 71);
+   border-radius: 7px;
+   margin: 500px solid rgb(102, 96, 96);
+   margin-left: 50px;
+}
+.enter-text{
+   padding-top: 50px;
+   color: lightgray;
+}
 .banner-button{
    color: rgba(255, 255, 255, 0.925);
    font-size: 20px;
