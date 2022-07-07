@@ -20,11 +20,17 @@ body{
    background-repeat: no-repeat;
    background-size: cover;
 }
-.paragraph-text{
+.banner-text{
    font-size: 25px;
    margin: 50px;
 }
-.second-title{
+.paragraph-text{
+   color: rgba(116, 116, 116, 0.973);
+   font-size: 20px;
+   font-weight: 500;
+   margin: 20px 200px;
+}
+.donate-title{
    font-size: 50px;
    font-weight: 700;
    /* text-align: center; */
@@ -34,10 +40,15 @@ body{
    text-align: center;
    margin-top: 70px;
 }
+.third-banner{
+   text-align: center;
+   margin-top: 120px;
+}
 .donate-amount{
    display: flex;
    flex-direction: row;
    justify-content: space-evenly;
+   padding-top: 50px;
 }
 .card-grey{
    color: rgba(100, 92, 92, 0.986);
@@ -65,7 +76,10 @@ body{
 }
 .enter-text{
    padding-top: 50px;
-   color: lightgray;
+   color: rgb(211, 211, 211);
+}
+#enter-text{
+   border-bottom: 3px solid rgba(211, 211, 211, 0.932);
 }
 .banner-button{
    color: rgba(255, 255, 255, 0.925);
@@ -73,8 +87,69 @@ body{
    background-color: rgba(218, 96, 75, 0.979);
    text-decoration: none;
    padding: 10px 20px;
-   margin: 20px;
    border-radius: 7px;
+   margin: 20px;
+}
+.cards{
+   display: flex;
+   flex-direction: row;
+   justify-content: space-evenly;
+}
+.card-food{
+   background-color: rgba(235, 245, 242, 0.979);
+   padding-top: 30px;
+   padding-left: 10px;
+   width: 280px;
+   height: 250px;
+   border-radius: 7px;
+   text-align: left;   
+}
+.card-shelter{
+   background-color: rgba(247, 196, 231, 0.952);
+   padding-top: 30px;
+   padding-left: 10px;
+   width: 280px;
+   height: 250px;
+   border-radius: 7px;
+   text-align: left;   
+}
+.card-education{
+   background-color: rgb(250, 220, 164);
+   padding-top: 30px;
+   padding-left: 10px;
+   width: 280px;
+   height: 250px;
+   border-radius: 7px;
+   text-align: left;   
+}
+.card-paragraph{
+   color: rgba(116, 116, 116, 0.973);
+   font-size: 15px;
+}
+.updates{
+   text-align: center;
+}
+.email-sub{
+   margin: 100px 187px;
+   background-color: rgba(255, 233, 202, 0.979);
+   padding: 100px 150px;
+   display: flex;
+   flex-direction: row;
+   justify-content: center;
+}
+.email{
+   margin: -10px;
+   padding: 10px 50px;
+   background-color: lightslategray;
+   font-size: 15px;
+}
+.subscribe-button{
+   color: rgba(255, 255, 255, 0.925);
+   font-size: 20px;
+   background-color: rgba(218, 96, 75, 0.979);
+   text-decoration: none;
+   padding: 10px 50px;
+   border-radius: 2px;
 }
 .foot{
    display: flex;
