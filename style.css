@@ -126,8 +126,40 @@ body{
    color: rgba(116, 116, 116, 0.973);
    font-size: 15px;
 }
+.contribute1{
+   display: flex;
+   margin: 200px 20px 200px 150px;
+}
+.contribute2{
+   display: flex;
+   justify-content: space-evenly;
+   width: 5%;
+   height: 1%;
+   margin: 100px 20px 100px 550px;
+
+}
+.contribute1-title{
+   color: rgba(26, 2, 2, 0.993);
+   font-size: 50px;
+   font-weight: 900;
+}
+.contribute-text{
+   color: rgba(116, 116, 116, 0.973);
+   font-size: 15px;
+   padding-bottom: 20px;
+}
+.image-edit1{
+   margin-right: 500px;
+   width: 90%;
+   border-radius: 7px;
+}
+.image-edit2{
+   width: 90%;
+   border-radius: 0px;
+}
 .updates{
    text-align: center;
+   margin-top: 120px;
 }
 .email-sub{
    margin: 100px 187px;
@@ -140,8 +172,10 @@ body{
 .email{
    margin: -10px;
    padding: 10px 50px;
-   background-color: lightslategray;
+   color: rgba(20, 79, 138, 0.993);
+   background-color: rgba(211, 211, 211, 0.993);
    font-size: 15px;
+   font-weight: 800;
 }
 .subscribe-button{
    color: rgba(255, 255, 255, 0.925);
