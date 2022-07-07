@@ -132,13 +132,9 @@ body{
 }
 .contribute2{
    display: flex;
-   justify-content: space-evenly;
-   width: 5%;
-   height: 1%;
-   margin: 100px 20px 100px 550px;
-
+   margin: 200px 20px 200px 150px;
 }
-.contribute1-title{
+.contribute-title{
    color: rgba(26, 2, 2, 0.993);
    font-size: 50px;
    font-weight: 900;
@@ -154,8 +150,8 @@ body{
    border-radius: 7px;
 }
 .image-edit2{
-   width: 90%;
-   border-radius: 0px;
+   width: 100%;
+   border-radius: 20px;
 }
 .updates{
    text-align: center;
